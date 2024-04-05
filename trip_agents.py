@@ -2,9 +2,9 @@ from crewai import Agent
 import streamlit as st
 from langchain_community.llms import OpenAI
 
-from crewAIProject.tools.browse_tools import BrowserTools
-from crewAIProject.tools.calculator_tools import CalculatorTools
-from crewAIProject.tools.search_tools import SearchTools
+from tools.browse_tools import BrowserTools
+from tools.calculator_tools import CalculatorTools
+from tools.search_tools import SearchTools
 
 
 def streamlit_callback(step_output):

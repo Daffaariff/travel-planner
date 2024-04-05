@@ -1,8 +1,9 @@
 from crewai import Crew
-from crewAIProject.trip_agents import TripAgents
-from crewAIProject.trip_tasks import TripTasks
+from trip_agents import TripAgents
+from trip_tasks import TripTasks
 import streamlit as st
 import datetime
+
 
 st.set_page_config(page_icon="✈️", layout="wide")
 
