@@ -1,0 +1,8 @@
+langchain
+openai
+crewai
+python-dotenv
+streamlit
+unstructured
+pyowm
+tools
